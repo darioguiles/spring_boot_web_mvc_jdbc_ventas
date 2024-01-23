@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS ventas;
+/*DROP DATABASE IF EXISTS ventas;
 CREATE DATABASE ventas CHARACTER SET utf8mb4;
-USE ventas;
-
+USE ventas;*/
+-- Comienza aquí
 CREATE TABLE cliente (
                          id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
                          nombre VARCHAR(100) NOT NULL,
