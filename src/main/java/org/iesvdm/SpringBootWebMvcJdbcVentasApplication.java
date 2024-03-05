@@ -57,7 +57,7 @@ public class SpringBootWebMvcJdbcVentasApplication implements CommandLineRunner{
 		Cliente clienteNew = new Cliente(0, "Jose M", "Martín", null, "Málaga", 100);
 		
 		//create actualiza el id
-		clienteDAO.create(clienteNew); //<-
+//		clienteDAO.create(clienteNew); //<-
 		
 		log.info("Cliente nuevo con id = {}", clienteNew.getId());
 		
